@@ -18,7 +18,6 @@ streamlit run app/Home.py
 ```
 
 ## Data Source
-_TODO: describe where the data comes from_
+
 
 ## Methodology
-_TODO: describe cleaning/metric logic_
