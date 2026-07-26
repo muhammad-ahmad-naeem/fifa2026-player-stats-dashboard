@@ -33,7 +33,7 @@ if selected_team:
 
   if selected_position:
     player_name_position = filter_df[filter_df["position"] == selected_position]
-    total_goal=int(player_name_position["goals"].sum())
+    player_position_goal=int(player_name_position["goals"].sum())
     player_position_red_cards=int(player_name_position["red_cards"].sum())
     player_position_yellow_cards=int(player_name_position["yellow_cards"].sum())
 
@@ -41,5 +41,5 @@ if selected_team:
     col4.metric(f"Goals by {selected_position}",player_position_goal )
     col5.metric(f"Yellow Cards by {selected_position}",player_position_yellow_cards )
     col6.metric(f"Red Cards by {selected_position}",player_position_red_cards )
-
+    
     st.dataframe(player_name_position)
