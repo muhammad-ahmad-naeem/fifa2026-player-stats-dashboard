@@ -76,8 +76,8 @@ if selected_team:
                 "be the more efficient scorer."
             )
             player_name = player_name_position[player_name_position["player_name"] == player_name_selected]
-            player_time = int(player_name["minutes_played"].iloc[0])
-            player_goals = int(player_name["goals"].iloc[0])
+            player_time = player_name["minutes_played"].iloc[0]
+            player_goals = player_name["goals"].iloc[0]
             goals = per_90(player_time, player_goals)
             if goals is None:
                 st.metric("Goals/90 sec", "N/A")
@@ -122,8 +122,8 @@ if player_position_selected_z_score:
         selected_player_row = filter_df_z_score[
             filter_df_z_score["player_name"] == player_name_list_selected_z_score
         ]
-        player_saves_z_score = int(selected_player_row["saves"].iloc[0])
-        player_goals_z_score = int(selected_player_row["goals"].iloc[0])
+        player_saves_z_score = selected_player_row["saves"].iloc[0]
+        player_goals_z_score = selected_player_row["goals"].iloc[0]
 
         z_score_final = z_score(player_saves_z_score, filter_df_z_score["saves"])
         if z_score_final is None:
