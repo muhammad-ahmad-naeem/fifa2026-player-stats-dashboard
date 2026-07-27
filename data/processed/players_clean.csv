@@ -117,5 +117,5 @@ player_id,player_name,team,nationality,position,age,height_cm,weight_kg,appearan
 116,Luka Fernandez,Spain,Spain,RW,19,184,83,11,848,7,4,10,70.2,34,0,0,1,0,120.7
 117,Federico Chiesa,Japan,Japan,LB,23,173,68,27,2015,3,7,13,70.0,40,0,0,5,0,23.4
 118,Declan Rice,Spain,Spain,RB,24,172,85,30,2259,0,9,1,69.5,39,0,3,5,0,
-119,Declan Ronaldo,France,France,CAM,26,173,88,23,1752,9,8,23,74.0,53,0,0,1,0,76.0
+119,Declan Ronaldo,France,France,CAM,26,173,88,23,0,9,8,23,74.0,53,0,0,1,0,76.0
 120,Aurelien Rashford,Uruguay,Uruguay,CM,31,196,88,36,2693,5,13,5,68.3,3,0,0,3,1,149.6

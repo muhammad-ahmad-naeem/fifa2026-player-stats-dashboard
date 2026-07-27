@@ -13,3 +13,9 @@ col3.metric("Total Goals: ", int(df["goals"].sum()))
 
 st.subheader("Player Data")
 st.dataframe(df)
+
+
+
+
+
+
