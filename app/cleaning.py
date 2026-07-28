@@ -5,7 +5,6 @@ def load_clean_data():
     df = pd.read_csv("data/processed/players_clean.csv")
     return df
 
-def load_css(path="assets/style.css"):
-    with open(path) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
+def load_team_summary():
+    df = pd.read_csv("data/processed/team_summary.csv")
+    return df
