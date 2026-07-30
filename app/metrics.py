@@ -89,3 +89,31 @@ def compare_teams(team_a_row, team_b_row):
         "team_a_score": team_a_score,
         "team_b_score": team_b_score,
     }
+
+
+POSITION_STATS = {
+    "GK":  ["saves", "clean_sheets", "pass_accuracy_pct"],
+    "CB":  ["tackles", "clean_sheets", "pass_accuracy_pct"],
+    "RB":  ["tackles", "clean_sheets", "pass_accuracy_pct"],
+    "LB":  ["tackles", "clean_sheets", "pass_accuracy_pct"],
+    "CDM": ["tackles", "assists", "pass_accuracy_pct"],
+    "CM":  ["assists", "pass_accuracy_pct", "tackles"],
+    "CAM": ["assists", "goals", "pass_accuracy_pct"],
+    "LW":  ["goals", "assists", "shots_on_target"],
+    "RW":  ["goals", "assists", "shots_on_target"],
+    "ST":  ["goals", "assists", "shots_on_target"],
+}
+
+
+def score_player(player_row, peer_group_df, position_stats=POSITION_STATS):
+    position = player_row["position"]
+    relevant_stats = position_stats.get(position, [])
+
+    player_z_scores = []
+    for stat in relevant_stats:
+        player_value = player_row[stat]
+        peer_group_values = peer_group_df[stat]
+        z = z_score(player_value, peer_group_values)
+        player_z_scores.append(z)
+
+    return impact_score(player_z_scores)

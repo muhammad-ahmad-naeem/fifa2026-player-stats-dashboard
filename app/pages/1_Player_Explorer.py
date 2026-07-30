@@ -3,6 +3,7 @@ from cleaning import load_clean_data
 from metrics import per_90
 from metrics import z_score
 from metrics import impact_score
+from metrics import score_player, POSITION_STATS
 
 st.set_page_config(page_title="FIFA 2026 Dashboard", layout="wide")
 st.title("⚽ FIFA 2026 Player Stats Dashboard")
@@ -145,19 +146,6 @@ st.caption(
     "for their position?' Missing stats are skipped rather than counted as average."
 )
 
-POSITION_STATS = {
-    "GK":  ["saves", "clean_sheets", "pass_accuracy_pct"],
-    "CB":  ["tackles", "clean_sheets", "pass_accuracy_pct"],
-    "RB":  ["tackles", "clean_sheets", "pass_accuracy_pct"],
-    "LB":  ["tackles", "clean_sheets", "pass_accuracy_pct"],
-    "CDM": ["tackles", "assists", "pass_accuracy_pct"],
-    "CM":  ["assists", "pass_accuracy_pct", "tackles"],
-    "CAM": ["assists", "goals", "pass_accuracy_pct"],
-    "LW":  ["goals", "assists", "shots_on_target"],
-    "RW":  ["goals", "assists", "shots_on_target"],
-    "ST":  ["goals", "assists", "shots_on_target"],
-}
-
 Player_position_impact_score = df["position"].dropna().unique().tolist()
 player_position_selected_impact_score = st.selectbox(
     "Enter Player position for Calculating Impact Score",
@@ -187,16 +175,10 @@ if player_position_selected_impact_score:
             player_position_df_impact_score["player_name"] == player_name_selected_impact_score
         ].iloc[0]
 
-        relevant_stats = POSITION_STATS.get(player_position_selected_impact_score, [])
-
-        player_z_scores = []
-        for stat in relevant_stats:
-            player_value = selected_player_row_impact_score[stat]
-            peer_group_values = player_position_df_impact_score[stat]
-            z = z_score(player_value, peer_group_values)
-            player_z_scores.append(z)
-
-        final_impact_score = impact_score(player_z_scores)
+        final_impact_score = score_player(
+            selected_player_row_impact_score,
+            player_position_df_impact_score
+        )
 
         if final_impact_score is None:
             st.metric("Impact Score", "N/A")
