@@ -49,7 +49,7 @@ else:
     st.subheader(f"📊 {team_a} vs {team_b} — Head-to-Head Summary")
 
     display_stats = CORE_COMPARISON_STATS + [
-        "avg_market_value_m", "total_yellow_cards", "total_red_cards"
+    "total_yellow_cards", "total_red_cards"
     ]
 
     comparison_table = pd.DataFrame({
@@ -103,8 +103,8 @@ else:
 
         with player_col_a:
             st.write(f"**{team_a} Players**")
-            st.dataframe(team_a_players := players_df[players_df["team"] == team_a])
+            st.dataframe(team_a_players := players_df[players_df["team"] == team_a].reset_index(drop=True))
 
         with player_col_b:
             st.write(f"**{team_b} Players**")
-            st.dataframe(team_b_players := players_df[players_df["team"] == team_b])
+            st.dataframe(team_b_players := players_df[players_df["team"] == team_b].reset_index(drop=True))

@@ -92,16 +92,10 @@ def compare_teams(team_a_row, team_b_row):
 
 
 POSITION_STATS = {
-    "GK":  ["saves", "clean_sheets", "pass_accuracy_pct"],
-    "CB":  ["tackles", "clean_sheets", "pass_accuracy_pct"],
-    "RB":  ["tackles", "clean_sheets", "pass_accuracy_pct"],
-    "LB":  ["tackles", "clean_sheets", "pass_accuracy_pct"],
-    "CDM": ["tackles", "assists", "pass_accuracy_pct"],
-    "CM":  ["assists", "pass_accuracy_pct", "tackles"],
-    "CAM": ["assists", "goals", "pass_accuracy_pct"],
-    "LW":  ["goals", "assists", "shots_on_target"],
-    "RW":  ["goals", "assists", "shots_on_target"],
-    "ST":  ["goals", "assists", "shots_on_target"],
+    "GK": ["saves", "clean_sheets", "pass_accuracy_pct"],
+    "DF": ["tackles", "clean_sheets", "pass_accuracy_pct"],
+    "MF": ["assists", "pass_accuracy_pct", "tackles"],
+    "FW": ["goals", "assists", "shots_on_target"],
 }
 
 
