@@ -1,121 +1,292 @@
-player_id,player_name,team,nationality,position,age,height_cm,weight_kg,appearances,minutes_played,goals,assists,shots_on_target,pass_accuracy_pct,tackles,saves,clean_sheets,yellow_cards,red_cards,market_value_million_eur
-1,Ansu Dembele,Mexico,Mexico,LW,24,197,91,32,2369,11,7,27,81.6,59,0,0,3,0,67.2
-2,Vinicius Wirtz,Brazil,Brazil,CAM,26,189,90,32,2414,14,5,5,76.1,53,0,0,2,0,99.3
-3,Enzo Leao,Morocco,Morocco,ST,21,172,71,34,2517,29,12,34,86.4,34,0,0,3,0,139.3
-4,Ansu Coman,Portugal,Portugal,RW,29,199,65,9,702,6,5,6,73.2,48,0,0,1,0,58.0
-5,Antoine Wirtz,Portugal,Portugal,CM,32,192,68,10,740,1,1,7,91.0,57,0,0,5,1,23.7
-6,Ivan Messi,Belgium,Belgium,CAM,30,184,66,26,1968,9,6,29,93.0,38,0,0,2,0,90.5
-7,Gavi Mbappe,France,France,CDM,22,186,81,26,1959,2,10,2,85.6,25,0,7,4,0,93.2
-8,Declan Saka,England,England,ST,25,191,83,25,1863,19,6,47,77.1,15,0,0,7,0,161.7
-9,Ivan Casemiro,England,England,CB,25,199,69,22,1643,2,2,4,74.2,47,0,7,4,0,134.9
-10,Bukayo Junior,Argentina,Argentina,RB,33,168,66,9,659,0,2,0,77.1,27,0,5,2,0,121.1
-11,Bruno Bellingham,Brazil,Brazil,LW,34,176,72,19,1443,11,6,25,75.7,16,0,0,2,0,153.1
-12,Rafael Szoboszlai,France,France,RW,30,189,78,23,1729,8,3,28,82.1,21,0,0,3,0,107.2
-13,Pedri Rashford,Germany,Germany,CM,22,197,83,33,2511,4,10,0,69.5,46,0,0,3,0,46.5
-14,Virgil Torres,USA,USA,LB,33,193,87,19,1412,2,4,3,76.1,4,0,5,0,0,86.4
-15,Kevin Fati,England,England,CB,22,168,62,30,2270,0,8,3,88.8,49,0,7,1,0,104.1
-16,Florian Pulisic,Brazil,Brazil,RW,25,185,74,17,1266,3,2,6,74.8,3,0,0,2,0,125.3
-17,Achraf Dembele,Netherlands,Netherlands,LW,21,198,81,28,2092,12,10,8,90.0,6,0,0,2,0,172.3
-18,Bruno Foden,Spain,Spain,CB,29,172,67,23,1692,3,5,9,89.4,1,0,1,6,0,16.5
-19,Bruno Musiala,Uruguay,Uruguay,RW,34,180,89,9,710,7,2,8,71.1,38,0,0,1,0,134.8
-20,Virgil Perisic,Germany,Germany,CDM,29,189,83,12,884,1,3,6,73.6,30,0,2,1,0,179.3
-21,Vinicius Foden,Portugal,Portugal,GK,29,193,69,21,1553,0,1,0,75.2,0,25,7,1,0,35.5
-22,Kingsley Coman,Spain,Spain,ST,34,178,82,19,1424,12,10,17,88.2,31,0,0,0,0,177.4
-23,Rafael van Dijk,Germany,Germany,RW,34,172,82,22,1684,5,1,5,94.0,2,0,0,1,0,100.9
-24,Florian Chiesa,Italy,Italy,CDM,31,173,89,28,2101,1,5,1,84.1,10,0,1,7,0,39.9
-25,Aurelien Felix,France,France,CM,32,194,90,36,2682,11,7,24,72.7,2,0,0,2,0,157.6
-26,Declan Fernandes,Spain,Spain,CB,27,168,69,22,1628,1,4,7,72.1,16,0,1,2,1,51.3
-27,Dominik Rashford,Mexico,Mexico,CDM,31,180,79,9,673,1,1,5,91.3,42,0,2,0,0,96.7
-28,Joao Szoboszlai,Brazil,Brazil,LB,22,180,67,30,2275,0,8,1,84.8,58,0,6,6,0,65.4
-29,Florian Perisic,Spain,Spain,CB,23,171,76,24,1805,0,3,1,93.5,19,0,6,1,0,174.6
-30,Pedri Griezmann,Netherlands,Netherlands,LW,19,178,76,14,1046,11,5,36,70.3,8,0,0,2,0,137.3
-31,Casemiro Felix,Portugal,Portugal,LW,34,192,74,24,1804,19,6,13,74.1,25,0,0,1,0,163.6
-32,Virgil Fernandez,Netherlands,Netherlands,CDM,25,177,66,36,2669,3,8,0,88.2,3,0,3,6,0,103.4
-33,Federico Perisic,Germany,Germany,RW,32,197,79,33,2475,16,7,11,92.6,25,0,0,6,0,106.3
-34,Ferran Pulisic,Morocco,Morocco,CM,21,177,81,28,2063,4,5,14,83.4,8,0,0,3,0,134.5
-35,Virgil Leao,Croatia,Croatia,ST,24,187,83,9,674,5,3,16,81.4,19,0,0,2,0,83.7
-36,Robert Coman,Mexico,Mexico,ST,34,189,89,7,526,5,1,18,75.6,46,0,0,1,0,95.9
-37,Antoine Felix,Brazil,Brazil,CB,18,196,69,3,254,1,0,3,68.7,31,0,5,0,0,129.4
-38,Lionel Junior,Netherlands,Netherlands,LB,25,186,65,20,1487,0,6,4,70.2,18,0,6,1,0,23.9
-39,Ousmane Fernandez,France,France,RW,22,169,74,29,2139,12,7,16,80.6,13,0,0,5,0,134.0
-40,Virgil Fati,Belgium,Belgium,CB,28,181,63,30,2251,0,11,4,89.8,27,0,5,6,0,139.2
-41,Lionel Williams,Brazil,Brazil,LB,28,169,82,20,1519,3,6,10,92.8,33,0,2,1,1,113.0
-42,Rodrigo Hernandez,Netherlands,Netherlands,LW,28,189,77,25,1839,11,8,20,,16,0,0,3,0,119.3
-43,Pedri Musiala,Belgium,Belgium,RW,29,177,68,9,688,4,2,6,79.0,34,0,0,1,0,58.8
-44,Gavi Mane,Mexico,Mexico,RB,29,174,81,32,2435,3,12,9,93.6,29,0,4,8,0,76.4
-45,Erling Messi,Japan,Japan,GK,30,182,70,18,1365,0,1,0,75.2,0,39,1,1,0,164.0
-46,Marcus Casemiro,England,England,LB,22,190,78,31,2308,4,8,4,89.5,4,0,2,2,0,114.1
-47,Rodrigo Szoboszlai,England,England,ST,27,173,69,36,2666,31,7,97,87.1,23,0,0,7,0,47.0
-48,Erling Leao,France,France,CB,33,178,74,13,995,0,5,2,90.1,47,0,1,3,0,128.1
-49,Virgil Williams,Mexico,Mexico,CAM,24,177,70,32,2380,8,5,5,88.3,18,0,0,5,0,137.5
-50,Declan Tchouameni,Mexico,Mexico,CDM,32,196,73,19,1445,2,6,3,93.7,58,0,7,0,0,25.2
-51,Bukayo Dembele,Croatia,Croatia,RW,32,187,83,31,2326,20,1,31,86.0,1,0,0,4,0,139.6
-52,Achraf Kroos,Brazil,Brazil,ST,29,194,69,16,1188,19,6,17,86.6,14,0,0,1,0,85.9
-53,Virgil Alonso,USA,USA,LW,32,199,74,17,1250,9,3,1,76.5,23,0,0,1,1,79.1
-54,Gavi Musiala,Spain,Spain,GK,35,179,86,21,1589,0,0,0,87.5,0,47,8,2,1,28.0
-55,Declan Rashford,Uruguay,Uruguay,CM,18,177,84,12,913,2,2,9,82.8,49,0,0,2,1,
-56,Ferran Hakimi,USA,USA,CAM,23,190,75,30,2256,19,12,44,72.1,50,0,0,3,0,41.0
-57,Nico Musiala,USA,USA,LW,36,184,80,29,2189,17,6,19,87.1,59,0,0,5,0,9.1
-58,Declan Williams,Italy,Italy,LW,21,187,63,34,2582,24,10,13,78.5,55,0,0,5,0,105.1
-59,Ansu Gonzalez,Argentina,Argentina,CDM,19,176,62,19,1452,0,4,4,76.6,9,0,1,0,1,121.2
-60,Erling Ronaldo,Netherlands,Netherlands,CAM,18,172,82,34,2560,10,9,0,69.3,54,0,0,2,0,
-61,Erling Perisic,Argentina,Argentina,CM,29,197,74,9,689,2,0,5,80.7,19,0,0,1,0,24.4
-62,Phil Musiala,France,France,CB,25,192,77,21,1581,1,8,5,94.0,8,0,7,7,0,156.2
-63,Luka Hernandez,Spain,Spain,CM,26,181,70,21,1547,9,7,13,83.7,13,0,0,2,0,112.3
-64,Vinicius De Bruyne,Italy,Italy,ST,19,182,65,29,2147,20,8,24,91.3,35,0,0,0,0,167.0
-65,Kevin Modric,Germany,Germany,LB,31,174,83,28,2116,4,7,3,72.8,19,0,3,3,0,88.1
-66,Lionel Modric,Portugal,Portugal,CAM,26,170,73,10,720,5,1,17,79.7,4,0,0,4,0,31.9
-67,Aurelien Perisic,Portugal,Portugal,CM,33,195,63,36,2666,9,9,6,76.9,3,0,0,3,0,80.7
-68,Erling Kroos,Uruguay,Uruguay,CM,23,183,91,26,1935,9,5,11,77.0,7,0,0,2,0,143.6
-69,Neymar Coman,Brazil,Brazil,CB,22,190,87,29,2203,3,7,10,82.4,2,0,0,3,0,72.7
-70,Jude Fernandez,Portugal,Portugal,CB,28,181,62,32,2390,2,10,5,71.4,32,0,1,4,0,166.3
-71,Phil Junior,Brazil,Brazil,CDM,30,186,66,16,1163,0,6,3,84.1,22,0,3,1,0,29.1
-72,Bruno Tchouameni,Italy,Italy,LB,28,172,68,12,889,0,3,3,84.1,38,0,0,1,0,42.7
-73,Ousmane Williams,Morocco,Morocco,RW,35,188,87,23,1708,16,6,38,87.8,4,0,0,2,0,40.3
-74,Kevin Fernandez,Spain,Spain,ST,21,184,70,9,664,5,1,9,90.3,20,0,0,2,0,172.2
-75,Gavi Hernandez,Belgium,Belgium,CAM,33,172,81,30,2276,10,10,23,,34,0,0,1,0,4.2
-76,Kevin Torres,Italy,Italy,CDM,21,192,87,25,1874,4,4,3,74.6,13,0,7,5,0,14.3
-77,Federico De Bruyne,England,England,RB,25,187,91,13,969,1,4,1,82.3,24,0,7,1,0,31.1
-78,Cristiano De Bruyne,Morocco,Morocco,LB,31,172,90,31,2360,4,12,11,73.6,12,0,1,2,0,75.6
-79,Ivan Junior,Mexico,Mexico,CB,24,189,73,31,2355,2,5,5,82.4,41,0,7,7,0,137.5
-80,Sadio Tchouameni,Spain,Spain,RB,28,184,84,26,1978,3,6,11,72.3,56,0,6,0,1,71.0
-81,Bukayo Bellingham,USA,USA,CAM,22,193,67,7,535,2,3,7,71.9,44,0,0,0,1,134.8
-82,Harry Williams,Uruguay,Uruguay,CM,30,194,76,13,939,2,1,3,79.0,19,0,0,3,0,141.8
-83,Pedri Mane,Morocco,Morocco,CDM,26,181,87,11,801,1,2,4,75.8,18,0,0,2,0,48.2
-84,Erling Dembele,Uruguay,Uruguay,CB,34,198,81,12,903,0,1,3,72.1,43,0,6,3,0,26.1
-85,Casemiro van Dijk,England,England,GK,29,177,86,11,817,0,1,0,75.1,0,16,2,1,0,137.2
-86,Luka Gonzalez,Morocco,Morocco,CB,21,185,66,26,1919,0,6,0,88.5,36,0,7,4,0,176.7
-87,Vinicius Silva,Italy,Italy,LB,34,181,67,29,2138,3,3,0,88.6,16,0,5,4,0,111.1
-88,Aurelien Messi,Italy,Italy,CB,19,196,70,30,2269,2,7,3,85.2,27,0,6,6,0,47.5
-89,Ferran Coman,Italy,Italy,CM,19,168,89,26,1983,7,11,17,77.4,42,0,0,3,0,177.1
-90,Lionel Musiala,Spain,Spain,LW,33,187,63,11,812,7,4,2,85.9,32,0,0,1,0,7.2
-91,Rafael Haaland,Brazil,Brazil,CB,26,178,86,21,1595,1,9,2,91.5,46,0,3,2,0,36.0
-92,Neymar Lewandowski,Argentina,Argentina,RW,28,188,64,15,1130,4,4,14,86.0,37,0,0,0,0,66.1
-93,Sadio Williams,Morocco,Morocco,LB,26,186,75,26,1987,2,9,6,91.9,21,0,3,0,1,154.8
-94,Vinicius Fernandes,Belgium,Belgium,RW,30,194,75,25,1859,16,5,10,75.8,52,0,0,0,0,54.9
-95,Antoine Bellingham,Croatia,Croatia,RW,25,176,90,24,1821,17,3,43,73.7,32,0,0,4,0,133.3
-96,Rodrigo Bellingham,Brazil,Brazil,RW,18,173,87,16,1231,12,3,17,91.2,16,0,0,5,1,
-97,Toni Musiala,Brazil,Brazil,LB,18,175,72,9,640,0,1,0,81.4,45,0,2,1,0,10.8
-98,Cristiano Perisic,Italy,Italy,CDM,34,198,75,12,903,1,2,5,85.6,18,0,0,3,0,82.2
-99,Lionel Torres,Morocco,Morocco,LW,25,182,89,9,655,8,2,3,78.0,17,0,0,1,0,18.4
-100,Ferran Ronaldo,Argentina,Argentina,GK,36,188,63,31,2288,0,0,0,72.5,0,11,8,5,0,115.5
-101,Ousmane Felix,Brazil,Brazil,CM,25,176,84,33,2505,3,8,2,78.0,27,0,0,5,0,105.1
-102,Ansu Tchouameni,Netherlands,Netherlands,CB,24,194,64,36,2668,2,5,4,71.7,29,0,0,6,0,6.9
-103,Achraf Bellingham,Italy,Italy,GK,28,172,64,36,2695,0,0,0,71.0,0,60,1,3,0,172.2
-104,Neymar Gonzalez,England,England,ST,26,174,65,35,2616,18,7,43,76.9,20,0,0,5,0,174.0
-105,Lionel Coman,Mexico,Mexico,CB,20,199,88,15,1108,1,6,3,80.4,53,0,4,0,0,42.5
-106,Aurelien Hakimi,Germany,Germany,CM,29,168,69,33,2493,7,11,12,69.5,16,0,0,8,0,116.0
-107,Bruno Felix,Brazil,Brazil,CDM,30,193,78,15,1142,2,4,2,,18,0,5,3,1,37.7
-108,Ferran Saka,Japan,Japan,GK,18,168,65,3,224,0,0,0,89.4,0,10,4,0,0,146.0
-109,Dominik Mbappe,Mexico,Mexico,CB,26,175,78,13,1001,0,2,2,92.8,37,0,2,3,0,55.3
-110,Aurelien Foden,Germany,Germany,GK,19,197,82,23,1697,0,0,0,89.9,0,65,1,5,0,99.7
-111,Luka De Bruyne,Brazil,Brazil,RB,34,191,76,5,382,0,1,3,74.3,45,0,7,1,0,148.4
-112,Robert Griezmann,Mexico,Mexico,CB,25,176,67,23,1689,1,6,6,86.4,23,0,4,0,1,151.4
-113,Kingsley Hakimi,Belgium,Belgium,RB,36,196,62,4,336,1,2,0,85.6,57,0,0,0,0,9.5
-114,Toni van Dijk,Netherlands,Netherlands,CAM,32,187,80,3,222,0,1,0,92.7,29,0,0,0,0,49.9
-115,Bruno Pulisic,Spain,Spain,GK,22,174,70,23,1725,0,1,0,88.0,0,37,8,1,1,2.5
-116,Luka Fernandez,Spain,Spain,RW,19,184,83,11,848,7,4,10,70.2,34,0,0,1,0,120.7
-117,Federico Chiesa,Japan,Japan,LB,23,173,68,27,2015,3,7,13,70.0,40,0,0,5,0,23.4
-118,Declan Rice,Spain,Spain,RB,24,172,85,30,2259,0,9,1,69.5,39,0,3,5,0,
-119,Declan Ronaldo,France,France,CAM,26,173,88,23,0,9,8,23,74.0,53,0,0,1,0,76.0
-120,Aurelien Rashford,Uruguay,Uruguay,CM,31,196,88,36,2693,5,13,5,68.3,3,0,0,3,1,149.6
+player_id,player_name,team,position,minutes_played,goals,assists,shots_on_target,pass_accuracy_pct,tackles,saves,clean_sheets,yellow_cards,red_cards
+P0001,Abdukodir Khusanov,Uzbekistan,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0002,Abdulla Abdullaev,Uzbekistan,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0003,Abduvohid Nematov,Uzbekistan,GK,N/A,N/A,N/A,N/A,N/A,N/A,5.0,N/A,N/A,N/A
+P0004,Achraf Hakimi,Morocco,DF,N/A,N/A,2.0,4.0,90.0,N/A,N/A,N/A,1.0,0.0
+P0005,Adrien Rabiot,France,MF,N/A,N/A,N/A,N/A,92.0,N/A,N/A,N/A,1.0,0.0
+P0006,Aissa Mandi,Algeria,DF,N/A,N/A,N/A,N/A,93.0,N/A,N/A,N/A,N/A,N/A
+P0007,Alan Minda,Ecuador,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0008,Aleksandar Pavlovic,Germany,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0009,Alessandro Circati,Australia,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0010,Alex Baena,Spain,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0011,Alexander Isak,Sweden,FW,N/A,N/A,3.0,6.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0012,Alexander Schlager,Austria,GK,N/A,N/A,N/A,N/A,N/A,N/A,15.0,N/A,N/A,N/A
+P0013,Alexis Mac Allister,Argentina,MF,N/A,N/A,N/A,N/A,91.0,N/A,N/A,N/A,1.0,0.0
+P0014,Ali Abdi,Tunisia,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0015,Alireza Beiranvand,Iran,GK,N/A,N/A,N/A,N/A,N/A,N/A,15.0,N/A,N/A,N/A
+P0016,Alisson,Brazil,GK,N/A,N/A,N/A,N/A,N/A,N/A,15.0,N/A,N/A,N/A
+P0017,Alistair Johnston,Canada,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0018,Amad Diallo,Côte d'Ivoire,FW,211.0,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0019,Andreas Schjelderup,Norway,MF,N/A,N/A,3.0,2.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0020,Andres Cubas,Paraguay,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0021,Angus Gunn,Scotland,GK,N/A,N/A,N/A,N/A,N/A,N/A,9.0,N/A,N/A,N/A
+P0022,Anthony Elanga,Sweden,FW,247.0,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0023,Anthony Gordon,England,FW,N/A,N/A,3.0,4.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0024,Antoine Semenyo,Ghana,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0025,Arda Guler,Türkiye,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0026,Ayase Ueda,Japan,FW,349.0,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0027,Aymen Dahmen,Tunisia,GK,N/A,N/A,N/A,N/A,N/A,N/A,6.0,N/A,N/A,N/A
+P0028,Aymen Hussein,Iraq,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0029,Aymeric Laporte,Spain,DF,N/A,N/A,N/A,N/A,94.0,N/A,N/A,N/A,N/A,N/A
+P0030,Azzedine Ounahi,Morocco,MF,N/A,N/A,N/A,N/A,89.0,N/A,N/A,N/A,N/A,N/A
+P0031,Bart Verbruggen,Netherlands,GK,N/A,N/A,N/A,N/A,N/A,N/A,17.0,N/A,N/A,N/A
+P0032,Behruzjon Karimov,Uzbekistan,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0033,Benjamin Asare,Ghana,GK,N/A,N/A,N/A,N/A,N/A,N/A,8.0,N/A,N/A,N/A
+P0034,Bradley Barcola,France,FW,432.0,3.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0035,Brahim Diaz,Morocco,FW,N/A,N/A,4.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0036,Brandon Mechele,Belgium,DF,N/A,N/A,N/A,N/A,92.0,N/A,N/A,N/A,1.0,0.0
+P0037,Breel Embolo,Switzerland,FW,531.0,2.0,2.0,5.0,N/A,N/A,N/A,N/A,2.0,1.0
+P0038,Brian Brobbey,Netherlands,FW,245.0,3.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0039,Brian Gutierrez,Mexico,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0040,Brian Rodriguez,Uruguay,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0041,Bruno Fernandes,Portugal,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0042,Bruno Guimaraes,Brazil,MF,N/A,N/A,4.0,2.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0043,Bukayo Saka,England,FW,411.0,3.0,3.0,7.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0044,Caleb Yirenkyi,Ghana,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,2.0,0.0
+P0045,Cameron Burgess,Australia,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0046,Camilo Vargas,Colombia,GK,N/A,N/A,N/A,N/A,N/A,N/A,7.0,N/A,N/A,N/A
+P0047,Carl Starfelt,Sweden,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0048,Carlos Harvey,Panama,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0049,Chadi Riad,Morocco,DF,N/A,N/A,1.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0050,Charles De Ketelaere,Belgium,FW,385.0,3.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0051,Chemsdine Talbi,Morocco,MF,N/A,N/A,1.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0052,Chris Richards,United States,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0053,Chris Wood,New Zealand,FW,N/A,N/A,2.0,2.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0054,Cody Gakpo,Netherlands,FW,394.0,3.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0055,Connor Metcalfe,Australia,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0056,Cristian Romero,Argentina,DF,N/A,N/A,N/A,N/A,97.0,N/A,N/A,N/A,2.0,0.0
+P0057,Cristian Volpato,Australia,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0058,Cristiano Ronaldo,Portugal,FW,490.0,3.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0059,Crysencio Summerville,Netherlands,FW,282.0,2.0,2.0,2.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0060,Cyle Larin,Canada,FW,224.0,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0061,Daichi Kamada,Japan,MF,359.0,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0062,Dailon Livramento,Cape Verde,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0063,Daizen Maeda,Japan,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0064,Damian Bobadilla,Paraguay,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0065,Dan Ndoye,Switzerland,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0066,Dani Olmo,Spain,FW,N/A,N/A,2.0,2.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0067,Daniel Munoz,Colombia,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0068,Davinson Sanchez,Colombia,DF,N/A,N/A,N/A,N/A,90.0,N/A,N/A,N/A,N/A,N/A
+P0069,Dayot Upamecano,France,DF,N/A,N/A,N/A,N/A,92.0,N/A,N/A,N/A,N/A,N/A
+P0070,Dean Henderson,England,GK,N/A,N/A,N/A,N/A,N/A,N/A,6.0,N/A,N/A,N/A
+P0071,Declan Rice,England,MF,N/A,N/A,2.0,3.0,92.0,N/A,N/A,N/A,N/A,N/A
+P0072,Deniz Undav,Germany,FW,174.0,3.0,2.0,4.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0073,Denzel Dumfries,Netherlands,DF,N/A,N/A,2.0,2.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0074,Desire Doue,France,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0075,Diney Borges,Cape Verde,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0076,Diogo Costa,Portugal,GK,N/A,N/A,N/A,N/A,N/A,N/A,20.0,N/A,N/A,N/A
+P0077,Djed Spence,England,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0078,Dominik Livakovic,Croatia,GK,N/A,N/A,N/A,N/A,N/A,N/A,12.0,N/A,N/A,N/A
+P0079,Edouard Mendy,Senegal,GK,N/A,N/A,N/A,N/A,N/A,N/A,8.0,N/A,N/A,N/A
+P0080,Eldor Shomurodov,Uzbekistan,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0081,Elijah Just,New Zealand,MF,291.0,3.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0082,Elliot Anderson,England,MF,N/A,N/A,N/A,N/A,89.0,N/A,N/A,N/A,1.0,0.0
+P0083,Ellyes Skhiri,Tunisia,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0084,Eloy Room,Curaçao,GK,N/A,N/A,N/A,N/A,N/A,N/A,21.0,N/A,N/A,N/A
+P0085,Emam Ashour,Egypt,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0086,Emiliano Martinez,Argentina,GK,N/A,N/A,N/A,N/A,N/A,N/A,20.0,N/A,N/A,N/A
+P0087,Enzo Fernandez,Argentina,MF,N/A,N/A,N/A,N/A,92.0,N/A,N/A,N/A,2.0,1.0
+P0088,Eren Elmali,Türkiye,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0089,Erling Haaland,Norway,FW,537.0,7.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0090,Ermedin Demirovic,Bosnia and Herzegovina,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0091,Ermin Mahmic,Bosnia and Herzegovina,MF,88.0,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0092,Ernest Nuamah,Ghana,FW,N/A,N/A,1.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0093,Esmir Bajraktarevic,Bosnia and Herzegovina,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0094,Ezri Konsa,England,DF,N/A,N/A,N/A,N/A,96.0,N/A,N/A,N/A,0.0,0.0
+P0095,Fabian Ruiz,Spain,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0096,Federico Valverde,Uruguay,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0097,Felix Nmecha,Germany,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0098,Ferran Torres,Spain,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0099,Florian Wirtz,Germany,MF,N/A,N/A,3.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0100,Folarin Balogun,United States,FW,348.0,3.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0101,Franck Kessie,Côte d'Ivoire,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0102,Gabriel Gudmundsson,Sweden,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0103,Gabriel Magalhaes,Brazil,DF,N/A,N/A,N/A,N/A,96.0,N/A,N/A,N/A,N/A,N/A
+P0104,Giuliano Simeone,Argentina,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0105,Granit Xhaka,Switzerland,MF,N/A,N/A,N/A,N/A,91.0,N/A,N/A,N/A,N/A,N/A
+P0106,Gregor Kobel,Switzerland,GK,N/A,N/A,N/A,N/A,N/A,N/A,20.0,N/A,N/A,N/A
+P0107,Gustaf Lagerbielke,Sweden,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0108,Gustavo Puerta,Colombia,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0109,Habib Diarra,Senegal,MF,168.0,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0110,Hannibal Mejbri,Tunisia,MF,N/A,N/A,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0111,Hans Vanaken,Belgium,MF,N/A,N/A,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0112,Harry Kane,England,FW,732.0,6.0,1.0,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0113,Harry Souttar,Australia,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0114,Hassan Altambakti,Saudi Arabia,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0115,Hazem Mastouri,Tunisia,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0116,Hernan Galindez,Ecuador,GK,N/A,N/A,N/A,N/A,N/A,N/A,12.0,N/A,N/A,N/A
+P0117,Hjalmar Ekdal,Sweden,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0118,Houssem Aouar,Algeria,MF,N/A,N/A,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0119,Iliman Ndiaye,Senegal,FW,N/A,N/A,2.0,2.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0120,Isak Hien,Sweden,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0121,Ismael Saibari,Morocco,MF,411.0,3.0,0.0,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0122,Ismaila Sarr,Senegal,FW,419.0,4.0,1.0,6.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0123,Issa Diop,Morocco,DF,N/A,N/A,N/A,N/A,92.0,N/A,N/A,N/A,N/A,N/A
+P0124,Jacob Italiano,Australia,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0125,Jacob Widell Zetterstrom,Sweden,GK,N/A,N/A,N/A,N/A,N/A,N/A,12.0,N/A,N/A,N/A
+P0126,Jalal Hassan,Iraq,GK,N/A,N/A,N/A,N/A,N/A,N/A,7.0,N/A,N/A,N/A
+P0127,Jan Paul Van Hecke,Netherlands,DF,N/A,N/A,N/A,N/A,93.0,N/A,N/A,N/A,N/A,N/A
+P0128,Jean Kevin Duverne,Haiti,DF,N/A,N/A,1.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0129,Jesper Karlstrom,Sweden,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0130,Joao Neves,Portugal,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0131,Johan Manzambi,Switzerland,MF,220.0,3.0,2.0,3.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0132,Johny Placide,Haiti,GK,N/A,N/A,N/A,N/A,N/A,N/A,13.0,N/A,N/A,N/A
+P0133,Jonathan David,Canada,FW,475.0,3.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0134,Jonathan Tah,Germany,DF,N/A,N/A,N/A,N/A,97.0,N/A,N/A,N/A,N/A,N/A
+P0135,Jordan Ayew,Ghana,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0136,Jordan Bos,Australia,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0137,Jordan Pickford,England,GK,N/A,N/A,N/A,N/A,N/A,N/A,19.0,N/A,N/A,N/A
+P0138,Joshua Kimmich,Germany,DF,N/A,N/A,2.0,1.0,91.0,N/A,N/A,N/A,N/A,N/A
+P0139,Juan Jose Caceres,Paraguay,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0140,Jude Bellingham,England,MF,698.0,7.0,1.0,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0141,Jules Kounde,France,DF,N/A,N/A,N/A,N/A,89.0,N/A,N/A,N/A,N/A,N/A
+P0142,Julian Alvarez,Argentina,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0143,Julian Quinones,Mexico,FW,440.0,4.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0144,Julio Enciso,Paraguay,FW,N/A,N/A,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0145,Kai Havertz,Germany,FW,392.0,3.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0146,Kevin De Bruyne,Belgium,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0147,Khojiakbar Alijonov,Uzbekistan,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0148,Kim Seunggyu,South Korea,GK,N/A,N/A,N/A,N/A,N/A,N/A,11.0,N/A,N/A,N/A
+P0149,Kosta Barbarouses,New Zealand,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0150,Kristoffer Ajer,Norway,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0151,Kwasi Sibo,Ghana,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0152,Kylian Mbappe,France,FW,769.0,10.0,4.0,23.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0153,Lamine Yamal,Spain,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0154,Lautaro Martinez,Argentina,FW,368.0,3.0,1.0,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0155,Lawrence Ati Zigi,Ghana,GK,N/A,N/A,N/A,N/A,N/A,N/A,8.0,N/A,N/A,N/A
+P0156,Lawrence Shankland,Scotland,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0157,Leandro Paredes,Argentina,MF,N/A,N/A,N/A,N/A,94.0,N/A,N/A,N/A,2.0,0.0
+P0158,Leandro Trossard,Belgium,FW,561.0,2.0,2.0,4.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0159,Lewis Ferguson,Scotland,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0160,Lionel Messi,Argentina,FW,853.0,8.0,4.0,19.0,78.0,N/A,N/A,N/A,N/A,N/A
+P0161,Lionel Mpasi,DR Congo,GK,N/A,N/A,N/A,N/A,N/A,N/A,15.0,N/A,N/A,N/A
+P0162,Lisandro Martinez,Argentina,DF,N/A,N/A,N/A,N/A,94.0,N/A,N/A,N/A,N/A,N/A
+P0163,Luc De Fougerolles,Canada,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,2.0,0.0
+P0164,Luca Zidane,Algeria,GK,N/A,N/A,N/A,N/A,N/A,N/A,9.0,N/A,N/A,N/A
+P0165,Lucas Bergvall,Sweden,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0166,Lucas Herrington,Australia,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0167,Luis Diaz,Colombia,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0168,Luis Suarez,Colombia,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0169,Mahmoud Abunada,Qatar,GK,N/A,N/A,N/A,N/A,N/A,N/A,16.0,N/A,N/A,N/A
+P0170,Malik Tillman,United States,MF,415.0,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0171,Manuel Akanji,Switzerland,DF,N/A,N/A,N/A,N/A,93.0,N/A,N/A,N/A,N/A,N/A
+P0172,Manuel Neuer,Germany,GK,N/A,N/A,N/A,N/A,N/A,N/A,7.0,N/A,N/A,N/A
+P0173,Marawan Attia,Egypt,MF,N/A,N/A,N/A,N/A,88.0,N/A,N/A,N/A,2.0,0.0
+P0174,Marc Cucurella,Spain,DF,N/A,N/A,2.0,3.0,91.0,N/A,N/A,N/A,1.0,0.0
+P0175,Marc Guehi,England,DF,N/A,N/A,N/A,N/A,97.0,N/A,N/A,N/A,N/A,N/A
+P0176,Marcus Holmgren Pedersen,Norway,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0177,Marcus Rashford,England,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0178,Marko Arnautovic,Austria,FW,173.0,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0179,Marquinhos,Brazil,DF,N/A,N/A,N/A,N/A,97.0,N/A,N/A,N/A,N/A,N/A
+P0180,Martin Experience,Haiti,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0181,Martin Odegaard,Norway,MF,N/A,N/A,4.0,3.0,88.0,N/A,N/A,N/A,N/A,N/A
+P0182,Matej Kovar,Czechia,GK,N/A,N/A,N/A,N/A,N/A,N/A,11.0,N/A,N/A,N/A
+P0183,Matheus Cunha,Brazil,FW,324.0,3.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0184,Matias Fernandez Pardo,Belgium,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0185,Matias Galarza,Paraguay,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,2.0,0.0
+P0186,Matt Freese,United States,GK,N/A,N/A,N/A,N/A,N/A,N/A,10.0,N/A,N/A,N/A
+P0187,Mattias Svanberg,Sweden,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0188,Max Crocombe,New Zealand,GK,N/A,N/A,N/A,N/A,N/A,N/A,11.0,N/A,N/A,N/A
+P0189,Maxi Araujo,Uruguay,MF,278.0,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0190,Maxime Crepeau,Canada,GK,N/A,N/A,N/A,N/A,N/A,N/A,7.0,N/A,N/A,N/A
+P0191,Michael Boxall,New Zealand,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0192,Michael Olise,France,FW,N/A,N/A,7.0,5.0,87.0,N/A,N/A,N/A,N/A,N/A
+P0193,Micky Van De Ven,Netherlands,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0194,Mike Maignan,France,GK,N/A,N/A,N/A,N/A,N/A,N/A,15.0,N/A,N/A,N/A
+P0195,Mikel Merino,Spain,MF,262.0,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0196,Mikel Oyarzabal,Spain,FW,664.0,5.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0197,Miro Muheim,Switzerland,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0198,Mohamed Hany,Egypt,DF,N/A,N/A,1.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0199,Mohamed Manai,Qatar,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0200,Mohamed Salah,Egypt,FW,N/A,N/A,2.0,4.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0201,Mohamed Toure,Australia,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0202,Mohammed Alowais,Saudi Arabia,GK,N/A,N/A,N/A,N/A,N/A,N/A,17.0,N/A,N/A,N/A
+P0203,Mory Diaw,Senegal,GK,N/A,N/A,N/A,N/A,N/A,N/A,5.0,N/A,N/A,N/A
+P0204,Mostafa Shoubir,Egypt,GK,N/A,N/A,N/A,N/A,N/A,N/A,14.0,N/A,N/A,N/A
+P0205,Mostafa Zico,Egypt,MF,398.0,2.0,1.0,3.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0206,Moussa Niakhate,Senegal,DF,N/A,N/A,1.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0207,Nahuel Molina,Argentina,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0208,Nathan Saliba,Canada,MF,N/A,N/A,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0209,Neil El Aynaoui,Morocco,MF,N/A,N/A,N/A,N/A,94.0,N/A,N/A,N/A,0.0,0.0
+P0210,Nelson Semedo,Portugal,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0211,Nestory Irankunda,Australia,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0212,Nico Elvedi,Switzerland,DF,N/A,N/A,N/A,N/A,93.0,N/A,N/A,N/A,N/A,N/A
+P0213,Nicolas Jackson,Senegal,FW,N/A,N/A,1.0,3.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0214,Nicolas Pepe,Côte d'Ivoire,FW,255.0,2.0,1.0,3.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0215,Nicolas Raskin,Belgium,MF,N/A,N/A,2.0,1.0,N/A,N/A,N/A,N/A,0.0,0.0
+P0216,Nicolas Tagliafico,Argentina,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0217,Nikola Vasilj,Bosnia and Herzegovina,GK,N/A,N/A,N/A,N/A,N/A,N/A,8.0,N/A,N/A,N/A
+P0218,Nishan Velupillay,Australia,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0219,Nuno Mendes,Portugal,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0220,Omar Marmoush,Egypt,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0221,Orjan Nyland,Norway,GK,N/A,N/A,N/A,N/A,N/A,N/A,17.0,N/A,N/A,N/A
+P0222,Orlando Gill,Paraguay,GK,N/A,N/A,N/A,N/A,N/A,N/A,28.0,N/A,N/A,N/A
+P0223,Orlando Mosquera,Panama,GK,N/A,N/A,N/A,N/A,N/A,N/A,9.0,N/A,N/A,N/A
+P0224,Oston Urunov,Uzbekistan,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0225,Ousmane Dembele,France,FW,648.0,6.0,2.0,10.0,79.0,N/A,N/A,N/A,N/A,N/A
+P0226,Pape Gueye,Senegal,MF,257.0,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0227,Patrick Beach,Australia,GK,N/A,N/A,N/A,N/A,N/A,N/A,14.0,N/A,N/A,N/A
+P0228,Patrick Berg,Norway,MF,N/A,N/A,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0229,Pau Cubarsi,Spain,DF,N/A,N/A,N/A,N/A,97.0,N/A,N/A,N/A,N/A,N/A
+P0230,Paul Okon Engstler,Australia,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0231,Pedri,Spain,MF,N/A,N/A,N/A,N/A,90.0,N/A,N/A,N/A,N/A,N/A
+P0232,Pedro Neto,Portugal,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0233,Pedro Porro,Spain,DF,N/A,N/A,N/A,N/A,90.0,N/A,N/A,N/A,0.0,0.0
+P0234,Pedro Vite,Ecuador,MF,N/A,N/A,N/A,N/A,91.0,N/A,N/A,N/A,N/A,N/A
+P0235,Pico Lopes,Cape Verde,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0236,Promise David,Canada,FW,N/A,N/A,1.0,3.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0237,Rafael Leao,Portugal,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0238,Ramin Rezaeian,Iran,DF,309.0,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0239,Ramy Bensebaini,Algeria,DF,N/A,N/A,N/A,N/A,93.0,N/A,N/A,N/A,N/A,N/A
+P0240,Raul Jimenez,Mexico,FW,348.0,3.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0241,Raul Rangel,Mexico,GK,N/A,N/A,N/A,N/A,N/A,N/A,8.0,N/A,N/A,N/A
+P0242,Remo Freuler,Switzerland,MF,N/A,N/A,N/A,N/A,92.0,N/A,N/A,N/A,0.0,0.0
+P0243,Renato Veiga,Portugal,DF,N/A,N/A,N/A,N/A,95.0,N/A,N/A,N/A,N/A,N/A
+P0244,Ricardo Rodriguez,Switzerland,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0245,Richard Rios,Colombia,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0246,Richie Laryea,Canada,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0247,Riyad Mahrez,Algeria,FW,288.0,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0248,Roberto Alvarado,Mexico,FW,N/A,N/A,3.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0249,Rodri,Spain,MF,N/A,N/A,N/A,N/A,93.0,N/A,N/A,N/A,0.0,0.0
+P0250,Rodrigo De Paul,Argentina,MF,N/A,N/A,N/A,N/A,92.0,N/A,N/A,N/A,N/A,N/A
+P0251,Romelu Lukaku,Belgium,FW,279.0,3.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0252,Ronwen Williams,South Africa,GK,N/A,N/A,N/A,N/A,N/A,N/A,14.0,N/A,N/A,N/A
+P0253,Ross Stewart,Scotland,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0254,Ruben Vargas,Switzerland,FW,314.0,2.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0255,Ryan Gravenberch,Netherlands,MF,N/A,N/A,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0256,Sadio Mane,Senegal,FW,N/A,N/A,1.0,3.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0257,Samuel Moutoussamy,DR Congo,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0258,Sander Berge,Norway,MF,N/A,N/A,N/A,N/A,97.0,N/A,N/A,N/A,N/A,N/A
+P0259,Scott Mckenna,Scotland,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0260,Sherzod Nasrullaev,Uzbekistan,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0261,Son Heungmin,South Korea,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0262,Sondre Langas,Norway,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0263,Soufiane Rahimi,Morocco,FW,215.0,2.0,1.0,4.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0264,Tani Oluwaseyi,Canada,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0265,Tete Yengi,Australia,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0266,Thapelo Maseko,South Africa,FW,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0267,Theo Hernandez,France,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0268,Thibaut Courtois,Belgium,GK,N/A,N/A,N/A,N/A,N/A,N/A,17.0,N/A,N/A,N/A
+P0269,Thomas Meunier,Belgium,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,0.0
+P0270,Tim Ream,United States,DF,N/A,N/A,N/A,N/A,94.0,N/A,N/A,N/A,N/A,N/A
+P0271,Torbjorn Heggem,Norway,DF,N/A,N/A,N/A,N/A,94.0,N/A,N/A,N/A,N/A,N/A
+P0272,Ugurcan Cakir,Türkiye,GK,N/A,N/A,N/A,N/A,N/A,N/A,8.0,N/A,N/A,N/A
+P0273,Umar Eshmurodov,Uzbekistan,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0274,Unai Simon,Spain,GK,N/A,N/A,N/A,N/A,81.0,N/A,14.0,N/A,N/A,N/A
+P0275,Viktor Gyokeres,Sweden,FW,N/A,N/A,2.0,6.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0276,Viktor Johansson,Sweden,GK,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0277,Vinicius Junior,Brazil,FW,505.0,4.0,1.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0278,Virgil Van Dijk,Netherlands,DF,N/A,N/A,N/A,N/A,95.0,N/A,N/A,N/A,N/A,N/A
+P0279,Vitinha,Portugal,MF,N/A,N/A,N/A,N/A,94.0,N/A,N/A,N/A,N/A,N/A
+P0280,Vozinha,Cape Verde,GK,N/A,N/A,N/A,N/A,N/A,N/A,18.0,N/A,N/A,N/A
+P0281,Weston Mckennie,United States,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1.0,0.0
+P0282,Wilfried Singo,Côte d'Ivoire,DF,N/A,N/A,1.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A
+P0283,William Saliba,France,DF,N/A,N/A,N/A,N/A,97.0,N/A,N/A,N/A,N/A,N/A
+P0284,Yahia Fofana,Côte d'Ivoire,GK,N/A,N/A,N/A,N/A,N/A,N/A,11.0,N/A,N/A,N/A
+P0285,Yasin Ayari,Sweden,MF,371.0,2.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0286,Yassine Bounou,Morocco,GK,N/A,N/A,N/A,N/A,N/A,N/A,19.0,N/A,N/A,N/A
+P0287,Yazan Alarab,Jordan,DF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0288,Yazeed Abulaila,Jordan,GK,N/A,N/A,N/A,N/A,N/A,N/A,8.0,N/A,N/A,N/A
+P0289,Yoane Wissa,DR Congo,FW,409.0,3.0,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0290,Youri Tielemans,Belgium,MF,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+P0291,Zion Suzuki,Japan,GK,N/A,N/A,N/A,N/A,N/A,N/A,17.0,N/A,N/A,N/A
