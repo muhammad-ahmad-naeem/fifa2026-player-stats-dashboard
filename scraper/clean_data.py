@@ -1,7 +1,6 @@
 """
-clean_data.py:
-Maps raw scraped data (data/raw/players_raw.csv) onto the EXACT schema
-defined in DATA_HANDOFF_SPEC.md.
+clean_data.py
+Maps raw scraped data (data/raw/players_raw.csv)
 players_clean.csv:
     player_id, player_name, team, position, appearances, minutes_played,
     goals, assists, shots_on_target, pass_accuracy_pct, tackles, saves,
@@ -17,8 +16,8 @@ import numpy as np
 RAW_PATH = "data/raw/players_raw.csv"
 CLEAN_PLAYERS_PATH = "data/processed/players_clean.csv"
 TEAM_SUMMARY_PATH = "data/processed/team_summary.csv"
-VALID_POSITION_CODES = {"GK", "CB", "RB", "LB", "CDM", "CM", "CAM", "LW", "RW", "ST"}
 
+VALID_POSITION_CODES = {"GK", "CB", "RB", "LB", "CDM", "CM", "CAM", "LW", "RW", "ST"}
 TEAM_CODE_TO_NAME = {
     "CAN": "Canada", "MEX": "Mexico", "USA": "United States",
     "AUT": "Austria", "BEL": "Belgium", "BIH": "Bosnia and Herzegovina",
@@ -38,7 +37,6 @@ TEAM_CODE_TO_NAME = {
     "SEN": "Senegal", "CIV": "Côte d'Ivoire", "PAN": "Panama",
     "RSA": "South Africa",
 }
-
 UNAVAILABLE_COLUMNS = ["position", "tackles", "clean_sheets"]
 FINAL_PLAYER_SCHEMA = [
     "player_id", "player_name", "team", "position", "appearances",
@@ -97,12 +95,17 @@ def map_team_names(df: pd.DataFrame) -> pd.DataFrame:
     if "team_code" not in df.columns:
         df["team"] = np.nan
         return df
+
     df["team"] = df["team_code"].map(TEAM_CODE_TO_NAME)
+
     unmapped_codes = set(df.loc[df["team"].isna() & df["team_code"].notna(), "team_code"])
     if unmapped_codes:
         print(f"\n[FLAG] These team codes have no entry in TEAM_CODE_TO_NAME "
               f"and were left blank - verify and add them: {unmapped_codes}")
+
     return df.drop(columns=["team_code"])
+
+
 def validate_positions(df: pd.DataFrame):
     actual_values = set(df["position"].dropna().unique())
     invalid = actual_values - VALID_POSITION_CODES
@@ -110,10 +113,11 @@ def validate_positions(df: pd.DataFrame):
         print(f"\n[FLAG] position column contains values NOT in the "
               f"required 10-code scheme: {invalid}. Per spec, these must "
               f"be resolved with the app team, not guessed at.")
-
 def reorder_to_final_schema(df: pd.DataFrame) -> pd.DataFrame:
     existing = [c for c in FINAL_PLAYER_SCHEMA if c in df.columns]
     return df[existing]
+def fill_missing_with_na_text(df: pd.DataFrame) -> pd.DataFrame:
+    return df.fillna("N/A")
 def clean_players(raw_path: str = RAW_PATH, output_path: str = CLEAN_PLAYERS_PATH) -> pd.DataFrame:
     df = load_raw_data(raw_path)
     df = consolidate_duplicate_columns(df)
@@ -124,13 +128,15 @@ def clean_players(raw_path: str = RAW_PATH, output_path: str = CLEAN_PLAYERS_PAT
     df = fix_dtypes(df)
     validate_positions(df)
     df = reorder_to_final_schema(df)
+    output_df = fill_missing_with_na_text(df)
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    df.to_csv(output_path, index=False)
-    print(f"Saved {len(df)} cleaned players to {output_path}")
+    output_df.to_csv(output_path, index=False)
+    print(f"Saved {len(output_df)} cleaned players to {output_path}")
     missing_cols = [c for c in UNAVAILABLE_COLUMNS if df[c].isna().all()]
     if missing_cols:
-        print(f"\n[NOTE] These required columns are entirely blank - see "
-              f"module docstring for why each is blocked: {missing_cols}")
+        print(f"\n[NOTE] These required columns are entirely blank (shown "
+              f"as 'N/A' in the file) - see module docstring for why each "
+              f"is blocked: {missing_cols}")
     return df
 def build_team_summary(players_df: pd.DataFrame, output_path: str = TEAM_SUMMARY_PATH):
     if players_df["team"].isna().all():
@@ -138,6 +144,7 @@ def build_team_summary(players_df: pd.DataFrame, output_path: str = TEAM_SUMMARY
               "entirely missing from the current data source (scraper "
               "needs updating to capture it - see module docstring).")
         return None
+
     agg_spec = {
         "total_players": ("player_id", "count"),
         "total_goals": ("goals", "sum"),
@@ -157,9 +164,18 @@ def build_team_summary(players_df: pd.DataFrame, output_path: str = TEAM_SUMMARY
         print(f"[NOTE] Skipping these team_summary columns - source stat "
               f"missing from players data: {missing_stats}")
     summary = players_df.groupby("team").agg(**available_agg).reset_index()
+    unavailable_to_total_col = {
+        "tackles": "total_tackles",
+        "clean_sheets": "total_clean_sheets",
+    }
+    for source_col, total_col in unavailable_to_total_col.items():
+        if source_col in players_df.columns and players_df[source_col].isna().all():
+            if total_col in summary.columns:
+                summary[total_col] = np.nan
+    output_summary = fill_missing_with_na_text(summary)
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    summary.to_csv(output_path, index=False)
-    print(f"Saved {len(summary)} teams to {output_path}")
+    output_summary.to_csv(output_path, index=False)
+    print(f"Saved {len(output_summary)} teams to {output_path}")
     return summary
 if __name__ == "__main__":
     players_df = clean_players()
