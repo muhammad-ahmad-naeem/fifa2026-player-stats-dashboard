@@ -36,15 +36,6 @@
 | ⚔️ **Team Comparison** | Head-to-head team stats with a fair-play tiebreaker and expandable advanced/raw-data views |
 | 📊 **Advanced Stats** | Top Scorers, Top Playmakers, and Best Overall Impact leaderboards with adjustable filters |
 
----
-
-## Screenshots
-
-> _Add screenshots here once the UI is finalized — drop images into `assets/` and reference them below, e.g._
-> `![Home page](assets/screenshot-home.png)`
-
----
-
 ## Tech Stack
 
 | Component | Tool |
@@ -152,10 +143,6 @@ Player and team statistics are scraped from FIFA's official 2026 World Cup stats
 - **Team comparison** — teams are scored across six core stats, one point each; ties are broken by fewest combined cards, mirroring real-world fair-play tiebreak rules
 
 ---
-
-## Project Status
-
-Actively in development. See [`FIFA2026_Dashboard_Progress_Log.md`](./FIFA2026_Dashboard_Progress_Log.md) for the full phase-by-phase history and design decisions.
 
 ## Contributors
 
